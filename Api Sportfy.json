@@ -1,0 +1,28 @@
+[
+    {
+        "id": "28dc9cd7783db57d",
+        "type": "cloudantplus out",
+        "z": "3010509a4902e864",
+        "name": "",
+        "cloudant": "bd97b238e170457e",
+        "database": "sportfy4",
+        "service": "_ext_",
+        "payonly": true,
+        "operation": "insert",
+        "x": 520,
+        "y": 240,
+        "wires": [
+            [
+                "f5753f5fdb6f9b34",
+                "f6b1ce5de6b6a424"
+            ]
+        ]
+    },
+    {
+        "id": "bd97b238e170457e",
+        "type": "cloudantplus",
+        "host": "https://8685b21f-dcdc-4864-a9bc-84e5121ccc12-bluemix.cloudantnosqldb.appdomain.cloud",
+        "name": "sportfy2",
+        "useapikey": true
+    }
+]
